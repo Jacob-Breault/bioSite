@@ -1,0 +1,96 @@
+/*Jacob Breault, 9/26/2021, BioSite Project.*/
+
+html {
+    background-color: rgba(240, 209, 149, 94);
+
+}
+
+#image-gallery {
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+#page-title {
+    text-align: center;
+    font-family: 'Shadows Into Light', 'Oswald', Verdana, Arial, sans-serif;
+    font-weight: 400;
+}
+
+.gallery-title {
+    text-align: center;
+    font-family: 'Shadows Into Light', 'Oswald', Verdana, Arial, sans-serif;
+    font-weight: 400;
+}
+
+figure {
+    text-align: center;
+}
+
+img {
+    width: 400px;
+    height: 350px;
+}
+
+figcaption {
+    font-family: 'Shadows Into Light', 'Oswald', Verdana, Arial, sans-serif;
+    font-style: normal;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+h1, h3, figcaption {
+    color: rgba(78, 41, 91)
+}
+
+.gallery-item {
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+#footer {
+    margin-top: 5%;
+    width: 100%;
+}
+
+#back-to-landing {
+    float: right;
+    margin-bottom: 10px;
+    color:red
+}
+
+#right-footer {
+    float: left;
+    margin-bottom: 10px;
+    color: red;
+}
+
+#links {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bio-landing {
+    float: left;
+}
+
+.bio-hobbies {
+    float: right;
+}
+
+.bio-about {
+    float: right;
+}
+
+.portrait {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#about-text {
+    text-decoration: bold;
+    font-size: 1.2em;
+}
